@@ -1,0 +1,45 @@
+:root{
+   --white : #f5f5f5f5;
+   --whiteblue : #daeff0;
+   --whitegray : rgb(179, 178, 178);
+   --lightred : #d4989d85;
+}
+
+.card-style{
+   border: 0px !important;
+   border-radius: 10px !important;
+   box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.247);
+}
+
+.form-input-style{
+   height: 40px !important;
+   border: none !important;
+   padding: 5px !important;
+   border-bottom: 1px solid var(--whitegray) !important;
+}
+
+
+
+.errorBg{
+   background-color: var(--lightred) !important;
+}
+
+.form-input-style:focus{
+   color: #495057 !important;
+   border: none !important;
+   background-color: var(--whiteblue) !important;
+   outline: 0 !important;
+   box-shadow: none !important;
+   border-radius: 3px !important;
+   border-bottom: 1px solid var(--whitegray) !important;
+}
+
+.spinner-border{
+   width: 1rem !important;
+   height: 1rem !important;
+}
+
+.scroll{
+   overflow-y: scroll;
+   height: 394px;
+}
